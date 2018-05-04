@@ -1,0 +1,11 @@
+1. urlopen 打开网页
+2. 使用 beautifulsoup 解析成一个DOM树
+3. 使用findall进行标签的寻找（href = '......'可以看成字典形式进行存取）
+4. 按类寻找（<li class = ''>  ）soup.findall('li',{'class':''})
+
+
+
+正则表达式：匹配字符的工具
+           1.简单匹配   2.灵活匹配 r"[] (使用中括号) 3 按类型匹配 4 重复匹配（*，+）5. 分组 使用括号（）
+
+ 如果我们想要在URL查询字符串传递数据，通常我们会通过httpbin.org/get?key=val方式传递。Requests模块允许使用params关键字传递参数，以一个字典来传递这些参数
