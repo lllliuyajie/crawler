@@ -24,6 +24,8 @@ for i in month:
 jan = soup.find_all('ul', {'class': 'jan'})
 for i in jan:
     print(i.get_text())'''
+
+
 '''from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import re
@@ -78,10 +80,12 @@ URL = 'http://www.nationalgeographic.com.cn/animals/'
 html = requests.get('http://www.nationalgeographic.com.cn/animals/').text
 soup = BeautifulSoup(html, features="lxml")
 img_list = soup.find_all('ul', {"class": "img_list"})
-# print(img_list) 如果选取的标签ul 属于父标签，接着会返回次标签和字标签
+# print(img_list) # 如果选取的标签ul 属于父标签，接着会返回所有子标签标签
 
 for img_url in img_list:
     imgs = img_url.find_all("img")
+    # print(imgs)
+
     for img in imgs:
         url = img['src']
         r = requests.get(url, stream = True)

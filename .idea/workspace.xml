@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a79a3e9-6480-4096-a1c7-863fc0ae9cfe" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start-now/multi-crawler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start-now/crawler_second.py" beforeDir="false" afterPath="$PROJECT_DIR$/start-now/crawler_second.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start-now/crawler-first.py" beforeDir="false" afterPath="$PROJECT_DIR$/start-now/crawler-first.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +15,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/crawler$crawler_second.coverage" NAME="crawler_second Coverage Results" MODIFIED="1525509748028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/start-now" />
-    <SUITE FILE_PATH="coverage/crawler$crawler_first.coverage" NAME="crawler-first Coverage Results" MODIFIED="1524559350874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/start-now" />
+    <SUITE FILE_PATH="coverage/crawler$crawler_first.coverage" NAME="crawler-first Coverage Results" MODIFIED="1525511868053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/start-now" />
+    <SUITE FILE_PATH="coverage/crawler$multi_crawler.coverage" NAME="multi-crawler Coverage Results" MODIFIED="1525514116313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/start-now" />
     <SUITE FILE_PATH="coverage/crawler$threading_test.coverage" NAME="threading_test Coverage Results" MODIFIED="1521257404821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crawler$test.coverage" NAME="test Coverage Results" MODIFIED="1521528181917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crawler$crawlers.coverage" NAME="crawlers Coverage Results" MODIFIED="1521018109262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -28,11 +29,12 @@
       <file leaf-file-name="crawler-first.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/start-now/crawler-first.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="299">
+              <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
               <folding>
                 <element signature="e#15#325#1" />
                 <element signature="e#327#733#1" />
+                <element signature="e#734#1583#0" />
                 <element signature="e#1595#1720#1" />
                 <element signature="e#2317#2332#0" expanded="true" />
               </folding>
@@ -40,10 +42,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crawler_second.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="multi-crawler.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/start-now/multi-crawler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-48">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#15#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crawler_second.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/start-now/crawler_second.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
+            <state relative-caret-position="621">
               <caret line="92" column="15" selection-start-line="92" selection-start-column="15" selection-end-line="92" selection-end-column="15" />
               <folding>
                 <element signature="e#42#263#0" />
@@ -96,9 +110,10 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/copy/crawlers.py" />
         <option value="$PROJECT_DIR$/start-now/explain" />
-        <option value="$PROJECT_DIR$/start-now/crawler-first.py" />
         <option value="$PROJECT_DIR$/start-now/test.py" />
         <option value="$PROJECT_DIR$/start-now/crawler_second.py" />
+        <option value="$PROJECT_DIR$/start-now/crawler-first.py" />
+        <option value="$PROJECT_DIR$/start-now/multi-crawler.py" />
       </list>
     </option>
   </component>
@@ -146,7 +161,7 @@
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Git/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../li-hang book" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
@@ -162,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.crawler_second">
+  <component name="RunManager" selected="Python.multi-crawler">
     <configuration name="crawler-first" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="crawler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,6 +235,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="multi-crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crawler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/start-now" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start-now/multi-crawler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="crawler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -258,40 +292,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="threading_queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="crawler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threading_queue.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.crawlers (1)" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.threading_queue" />
       <item itemvalue="Python.crawler-first" />
       <item itemvalue="Python.crawler_second" />
       <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.multi-crawler" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.multi-crawler" />
+        <item itemvalue="Python.crawler-first" />
         <item itemvalue="Python.crawler_second" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.crawler-first" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.threading_queue" />
       </list>
     </recent_temporary>
   </component>
@@ -306,6 +321,14 @@
       <option name="presentableId" value="Default" />
       <updated>1521015271403</updated>
     </task>
+    <task id="LOCAL-00001" summary="xxx">
+      <created>1525510159439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525510159439</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -317,7 +340,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298292" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3285151" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24967149" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21625" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -343,28 +366,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="xxx" />
+    <option name="LAST_COMMIT_MESSAGE" value="xxx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/start-now/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/start-now/explain">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/start-now/crawler_second.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1219">
@@ -385,6 +395,7 @@
           <folding>
             <element signature="e#15#325#1" />
             <element signature="e#327#733#1" />
+            <element signature="e#734#1583#0" />
             <element signature="e#1595#1720#1" />
             <element signature="e#2317#2332#0" expanded="true" />
           </folding>
@@ -425,6 +436,7 @@
           <folding>
             <element signature="e#15#325#1" />
             <element signature="e#327#733#1" />
+            <element signature="e#734#1583#0" />
             <element signature="e#1595#1720#1" />
             <element signature="e#2317#2332#0" expanded="true" />
           </folding>
@@ -465,6 +477,7 @@
           <folding>
             <element signature="e#15#325#1" />
             <element signature="e#327#733#1" />
+            <element signature="e#734#1583#0" />
             <element signature="e#1595#1720#1" />
             <element signature="e#2317#2332#0" expanded="true" />
           </folding>
@@ -505,6 +518,7 @@
           <folding>
             <element signature="e#15#325#1" />
             <element signature="e#327#733#1" />
+            <element signature="e#734#1583#0" />
             <element signature="e#1595#1720#1" />
             <element signature="e#2317#2332#0" expanded="true" />
           </folding>
@@ -525,6 +539,7 @@
           <folding>
             <element signature="e#15#325#1" />
             <element signature="e#327#733#1" />
+            <element signature="e#734#1583#0" />
             <element signature="e#1595#1720#1" />
             <element signature="e#2317#2332#0" expanded="true" />
           </folding>
@@ -545,6 +560,7 @@
           <folding>
             <element signature="e#15#325#1" />
             <element signature="e#327#733#1" />
+            <element signature="e#734#1583#0" />
             <element signature="e#1595#1720#1" />
             <element signature="e#2317#2332#0" expanded="true" />
           </folding>
@@ -603,10 +619,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/start-now/explain">
+    <entry file="file://D:/anaconda/envs/py36/Lib/multiprocessing/pool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="-4324">
+          <caret line="260" column="8" selection-start-line="260" selection-start-column="8" selection-end-line="260" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -617,35 +633,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/anaconda/envs/py36/Lib/multiprocessing/pool.py">
+    <entry file="file://$PROJECT_DIR$/start-now/explain">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4324">
-          <caret line="260" column="8" selection-start-line="260" selection-start-column="8" selection-end-line="260" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/start-now/crawler-first.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#15#325#1" />
-            <element signature="e#327#733#1" />
-            <element signature="e#1595#1720#1" />
-            <element signature="e#2317#2332#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="230">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/start-now/crawler_second.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="621">
           <caret line="92" column="15" selection-start-line="92" selection-start-column="15" selection-end-line="92" selection-end-column="15" />
           <folding>
             <element signature="e#42#263#0" />
             <element signature="e#281#719#0" />
             <element signature="e#892#991#1" />
             <element signature="e#993#1592#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start-now/crawler-first.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+          <folding>
+            <element signature="e#15#325#1" />
+            <element signature="e#327#733#1" />
+            <element signature="e#734#1583#0" />
+            <element signature="e#1595#1720#1" />
+            <element signature="e#2317#2332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/anaconda/envs/py36/Lib/urllib/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="587" selection-start-line="587" selection-end-line="587" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start-now/multi-crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
