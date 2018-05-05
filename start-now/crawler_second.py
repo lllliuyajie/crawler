@@ -45,7 +45,7 @@ thread.start()
 thread.join()
 print("all done")'''
 
-import threading
+'''import threading
 from queue import Queue
 
 
@@ -61,8 +61,7 @@ def mult_thearding():
     data = [[1, 2, 3], [3, 4, 5], [4, 4, 4], [5, 5, 5]]
 
     for i in range(4):
-        t = threading.Thread(target=job(data[i], q))          # 线程锁 lock  在每个线程运行修改内存之前，运行lock.acquire（）将共享内存上锁，
-                                                              # 确保当前内存执行时，内存不会被其他线程访问
+        t = threading.Thread(target=job(data[i], q))          
         t.start()
         threads.append(t)
     for thread in threads:
@@ -76,4 +75,43 @@ def mult_thearding():
 
 
 if __name__ == '__main__':
-    mult_thearding()
+    mult_thearding()'''  # 线程锁 lock  在每个线程运行修改内存之前，运行lock.acquire（）将共享内存上锁，
+           # 确保当前内存执行时，内存不会被其他线程访问
+
+
+'''import multiprocessing as mp
+
+
+def job(q):
+    a = 1
+    for i in range(10):
+         a += a
+
+    q.put(a)
+
+
+if __name__ == '__main__':
+    q = mp.Queue()
+
+    p = mp.Process(job(q))
+    p.start()
+    p.join()
+
+    res = q.get()
+    print(res)'''  # 进程使用 QUEUE
+
+import multiprocessing as mp
+
+def job(x):
+    return x * x
+
+
+def mulitprocess():
+    pool = mp.Pool()
+
+    res = pool.map(job, range(5))
+
+    print(res)
+
+if __name__ == '__main__':
+    mulitprocess()
